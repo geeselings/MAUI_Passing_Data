@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPassingData.SumPage"
+             Title="SumPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Samantha Mowery" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <Label 
+            x:Name="numLabel"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label 
+            x:Name="sumLabel"
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button 
+            Text="Go Back" 
+            Clicked="OnGoBackClicked" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
